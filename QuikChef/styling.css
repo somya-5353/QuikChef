@@ -1,0 +1,176 @@
+/* styling.css */
+body{
+   background:url(imgs/appetizer.jpg) no-repeat center center;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+/*limit the width of the icons section*/
+.container{
+    max-width: 1000px;
+    height:250px;
+    padding:30px;
+}
+/*Style icons section using bootstrap grid system*/
+.bodyimage{
+    height: 100px;   
+}
+.bodyimage:hover{
+    width:150px;
+    height:150px;
+}
+.col-md-4{
+    text-align: center;
+    color: #fff;
+    text-decoration: underline;
+   font-family:Arvo,serif;  
+}
+
+.icons p{
+    font-size: 15px;   
+}
+
+
+#hsign{
+    font-family:Arvo,serif;
+    color:black;
+    text-align: center;
+    margin-left: -40px;
+    margin-top:200px;
+    padding: 55px;
+    letter-spacing: 3px;
+    font-size:70px;
+
+}
+#he{
+    font-family:Arvo,serif;
+    color:#fff;
+    text-align: center;
+    margin-left: 210px;
+    padding: 55px;
+    letter-spacing: 3px;
+    font-size:70px;
+
+}
+#he1{
+    font-family:Arvo,serif;
+    font-style:italic;
+    color:#fff;
+    text-align: center;
+    margin-left: 205px;
+    padding: 55px;
+    letter-spacing: 2px;
+    font-size:20px;
+
+}
+.main{
+    position:fixed;
+    height:100px;
+    width: 300px;
+    
+}
+.head
+{
+    color:#d57f3c;
+}
+.head:hover{
+    color:#d57f3c;
+}
+
+.btn{
+    width:320px;
+    background-color:#ff0041;
+    font-family:Arvo,serif; 
+    border-radius:60px;
+    color:white;
+    font-size:18px;
+    padding:10px 70px;
+    letter-spacing: 1.3px;
+}
+.btn:hover{
+    background:rgba(255,255,255,0.5);
+    color:black;
+    border:none;
+}
+.btn1{
+    width:320px;
+    background-color:#ff0041;
+    font-family:Arvo,serif; 
+    border-radius:20px;
+    color:white;
+    font-size:18px;
+    padding:10px 70px;
+    letter-spacing: 1.3px;
+    transform:translate(80px);
+}
+.btn1:hover{
+    background:rgba(255,255,255,0.5);
+    color:black;
+    border:none;
+}
+#main1{
+
+    left:520px;
+    border:none;
+}
+.ut{
+    height:50px;
+     background:url(imgs/galaxy.jpg) no-repeat center center;
+    color:white;
+    font-size: 20px;
+    
+}
+::placeholder{
+    color:white;
+    font-family:Arvo,serif; 
+    text-align: center;
+}
+#button1{
+    width:360px;
+    background-color:#ff0041;
+    font-family:Arvo,serif; 
+    border-radius:5px;
+    color:white;
+    font-size:18px;
+    padding:10px 100px;
+    letter-spacing: 1.3px;
+    margin-left:-6px;
+}
+#s1{
+    color:white;
+}
+.link{
+    color:#ff0041;
+}
+.sign1{
+   position:fixed;
+    height:300px;
+    width: 300px;
+    color:white;
+}
+#signnew{
+    left:330px;
+}
+.adds{
+    transform:translate(160px,10px)
+}
+.ut1{
+    height:40px;
+    color:white;
+    font-size: 20px;
+    
+}
+#detail{
+    color:black;
+    font-family:Arvo,Serif;
+    transform:translate(200px,80px)
+}
+.bodyimagex{
+    height: 20px; 
+    transform:translate(350px,-60px)
+}
+.msg1{
+    height:10px;
+    color:black;
+    transform:translate(400px,-60px);
+}
